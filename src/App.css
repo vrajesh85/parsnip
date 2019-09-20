@@ -19,6 +19,17 @@
   color: white;
 }
 
+.task-header  {
+  width: 14%;
+  width: calc((100% - 24px) /7);
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  vertical-align: top;
+}
+
+
+
 .App-link {
   color: #61dafb;
 }
