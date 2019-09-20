@@ -6,7 +6,7 @@ const mockTasks = [
   {
     id: 1,
     title: 'Learn Redux',
-    description: 'The store, actions, and reducers',
+    description: 'The store, actions, and reducers with testing',
     status: 'In Progress',
   },
   {
