@@ -10,12 +10,12 @@ Function PushToGit(){
         git init
         git add .
         git commit -m 'SVNtoGitMigration' 
-        #git remote set-url master $gitPath   
-       git remote add master $gitPath    
+        git remote set-url master $gitPath   
+      # git remote add master $gitPath    
        # git remote -v
        git config --global push.default current
        #git push -f --set-upstream origin master
-       git push origin master
+       git push  master
 }
 
 
