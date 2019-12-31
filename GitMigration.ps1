@@ -9,13 +9,13 @@ Function PushToGit(){
         Set-Location -Path $FilePath
         git init
         git add .
-       git commit -m 'SVNtoGitMigration' 
+        git commit -m 'SVNtoGitMigration' 
         #git remote set-url master $gitPath   
        git remote add master $gitPath    
        # git remote -v
        git config --global push.default current
        #git push -f --set-upstream origin master
-       git push -u master
+       git push origin master
 }
 
 
