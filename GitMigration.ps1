@@ -15,8 +15,8 @@ Function PushToGit(){
        # git remote -v
        git config --global push.default current
        #git push -f --set-upstream origin master
-       git pull
-       git push  master
+       git pull origin master
+       git push origin master
 }
 
 
